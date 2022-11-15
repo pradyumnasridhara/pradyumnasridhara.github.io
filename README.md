@@ -1,2 +1,2 @@
 # pradyumnasridhar.github.io
-Repository for my personal website
+Repository for personal website. This project was originally designed and developed by Nicklas Hansen, from nicklashansen.github.io.
