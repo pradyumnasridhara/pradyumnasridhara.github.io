@@ -56,8 +56,8 @@
         <p>
             <a class="publication-title bold" href="https://adalabucsd.github.io/cerebro.html">Cerebro</a> - <b> a distributed deep learning framework that offers effecient model selection pipelines on multi-node multi-GPU clusters</b>. Two existing (and growing)
             execution strategies developed in our group are - Model Hopper Parallism which is a hybrid of task and data parallism, and Hydra - which focuses on model sharding. My work involves designing
-            a <b>unified scheduler</b>, along with the surrounding infrastructure, that can work across all three strategies - <b>model parallism, data parallism and task parallism</b>, in an effecient manner. This ensures that small models that work on large data, such as images and video
-            as well as large models that don't fit in GPU memory, such as Transformers, can make use of Cerebro's increased performance and scalability. Current experiments are on <b>AWS</b>, using <b>Dask</b> for the ETL pipeline and <b>Kubernetes</b> for container orchestration.
+            a <b>unified scheduler</b>, along with the surrounding infrastructure, that can work across all three strategies - <b>model parallism, data parallism and task parallism</b>, in an effecient manner. This ensures that small deep learning models that work on large data - multimedia such as images and videos
+            , as well as large models that don't fit on a single GPU's memory - such as Transformers, can make use of Cerebro's increased performance and scalability. Current experiments are on 16-GPU 4 node/8node <b>AWS</b> clusters, using <b>Dask</b> for the ETL pipeline and <b>Kubernetes</b> for container orchestration.
         </p>
     </div>
     <div>
