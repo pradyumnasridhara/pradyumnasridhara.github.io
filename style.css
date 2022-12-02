@@ -32,7 +32,7 @@ p {line-height: 1.5em;}
 .img-contain {background-size: contain !important;}
 .footer {background-color: #345; width: 100%}
 .footer-content {color: #fff; font-size: 10px; padding: 6px 0; max-width: 968px; margin: auto;}
-.header-icon {display: block; float: left; margin: 15px; background-position: center; background-size: contain; background-repeat: no-repeat; border-radius: 6px;width: 30px; height: 30px;}
+.header-icon {display: block; float: left; margin-right: 15px; margin-top: 5px; margin-bottom: 5px; background-position: center; background-size: contain; background-repeat: no-repeat; border-radius: 6px;width: 30px; height: 30px;}
 @media only screen and (max-width: 1150px) {
     .header-profile-picture, .header-text {display: block; margin: auto; text-align: center;}
     .header-profile-picture {margin-bottom: 12px; width: 140px; height: 140px;}
